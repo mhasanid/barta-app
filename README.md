@@ -22,28 +22,40 @@ Ensure you have the following installed:
 - Laravel (installed via Composer)
 
 ### Clone the Repository
-
+```bash
 git clone https://github.com/yourusername/barta-app.git
 cd barta-app
+```
 
 ### Install Dependencies
+```bash
 composer install
+```
 
 ### Set Up Environment File
+```bash
 cp .env.example .env
+```
 
 ### Generate Application Key
+```bash
 php artisan key:generate
+```
 
 ### Run Migrations
+```bash
 php artisan migrate
+```
 
 ### Seed the Database (Optional)
+```bash
 php artisan db:seed
+```
 
 ### Serve the Application
+```bash
 php artisan serve
-
+```
 
 ## Usage
 ### Authentication
